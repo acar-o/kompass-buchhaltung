@@ -8801,7 +8801,11 @@ textarea.form-control {
 }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 1em 0; } 
+    .gmap_canvas{
+      height: 40vh;
+    }
+    }
 
 .ftco-bg-dark {
   background: #3c312e; }
