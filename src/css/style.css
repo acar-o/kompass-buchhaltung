@@ -8710,7 +8710,13 @@ h1, h2, h3, h4, h5,
         width: 300px; } }
     @media (max-width: 767.98px) {
       .cases-wrap .img {
-        margin-bottom: 30px; } }
+        margin-bottom: 30px; }
+      .emailtop{
+        display: block;
+      }
+    #facebooktop{
+      padding: 0 !important;
+    } }
   .cases-wrap .text {
     width: 100%; }
     @media (min-width: 992px) {

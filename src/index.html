@@ -36,11 +36,11 @@
 								<p class="mb-0 phone pl-md-2">
 									<a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +49 1590
 										1823328</a>
-									<a href="mailto:info@kompass-buchhaltungsbüro.de"><span
-											class="fa fa-paper-plane mr-1"></span>info@kompass-buchhaltungsbüro.de</a>
+									<a href="mailto:info@kompass-buchhaltungsburo.de" class="emailtop"><span
+											class="fa fa-paper-plane mr-1"></span>info@kompass-buchhaltungsburo.de</a>
 								</p>
 							</div>
-							<div class="col-md-6 d-flex justify-content-md-end">
+							<div class="col-md-6 d-flex justify-content-md-end" id="facebooktop">
 								<div class="social-media">
 									<p class="mb-0 d-flex">
 										<a href="https://www.facebook.com/profile.php?id=100089704020370"
@@ -251,7 +251,7 @@
 				</div>  -->
 
 				<div style="width: 100%;background-color: rgb(208,161,31);">
-					<div class="text pl-4" style="display: flex;align-items: center;">
+					<div class="text pl-4" style="display: flex;align-items: center;padding: 0 10px;">
 						<h3 style="margin: 5vh auto;text-align: center;font-weight: 700;">Brauchen Sie Unterstützung im
 							One-Stop-Shop-Verfahren? <br><br>Gerne
 							unterstützen wir Ihnen mit dieser
@@ -503,8 +503,8 @@
 						</div>
 					</div>
 					<div
-						style="position: absolute; bottom: 0; right: 0;font-size: 7px;z-index: 100;color: rgb(95, 94, 94);">
-						<p>this page is developed by ömer acar</p>
+						style="position: absolute; bottom: 0; right: 0;font-size: 9px;z-index: 100;color: rgb(77, 77, 77);">
+						<p id="color">this page is developed by ömer acar</p>
 					</div>
 				</div>
 			</div>
@@ -536,6 +536,21 @@
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		var yazi = document.getElementById('color');
+		yazi.onclick = changeColor; 
+
+		var currentColor = "rgb(37,37,37)";
+		function changeColor() { 
+				if(currentColor == "rgb(37,37,37)"){ 
+				   yazi.style.color = "white";
+				   currentColor = "white";
+				} else {
+				   yazi.style.color = "rgb(37,37,37)";
+				   currentColor = "rgb(37,37,37)";
+				} 
+			}
+		</script>
 
 </body>
 
