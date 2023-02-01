@@ -8711,8 +8711,8 @@ h1, h2, h3, h4, h5,
     @media (max-width: 767.98px) {
       .cases-wrap .img {
         margin-bottom: 30px; }
-      .emailtop{
-        display: block;
+      #emailtop{
+        display: block !important;
       }
     #facebooktop{
       padding: 0 !important;
